@@ -13,7 +13,7 @@ employee = [{
 	 "Last_name" : "Szokoll",
 	 "Email_adress" : "Markus.Szokoll@gmx.at",
 	 "Job_title": "Full Stack developer",
-	 "Salary" : "5000€"
+	 "Salary" : "500€"
 
 },{
 	"unique_Id" : "2",
@@ -21,7 +21,7 @@ employee = [{
 	 "Last_name" : "Schiavone",
 	 "Email_adress" : "Markus.Szokoll@gmx.at",
 	 "Job_title": "Full Stack developer",
-	 "Salary" : "5000€"
+	 "Salary" : "500€"
 
 },{
 	"unique_Id" : "3",
@@ -29,7 +29,7 @@ employee = [{
 	 "Last_name" : "Rambo",
 	 "Email_adress" : "John.Rambo@gmx.at",
 	 "Job_title": "Full Stack destroyer",
-	 "Salary" : "5000€"
+	 "Salary" : "2000€"
 
 },{
 	"unique_Id" : "4",
@@ -37,7 +37,7 @@ employee = [{
 	 "Last_name" : "Marple",
 	 "Email_adress" : "Oldschool.Crime@gmx.at",
 	 "Job_title": "Full Stack developer",
-	 "Salary" : "5000€"
+	 "Salary" : "2000€"
 
 },{
 	"unique_Id" : "5",
@@ -45,7 +45,7 @@ employee = [{
 	 "Last_name" : "Dong",
 	 "Email_adress" : "Who.is.there@gmx.at",
 	 "Job_title": "Full Stack developer",
-	 "Salary" : "5000€"
+	 "Salary" : "1000€"
 
 },{
 	"unique_Id" : "6",
@@ -53,7 +53,7 @@ employee = [{
 	 "Last_name" : "Bang",
 	 "Email_adress" : "Bang.Bang@gmx.at",
 	 "Job_title": "Full Stack developer",
-	 "Salary" : "5000€"
+	 "Salary" : "8000€"
 
 },{
 	"unique_Id" : "7",
