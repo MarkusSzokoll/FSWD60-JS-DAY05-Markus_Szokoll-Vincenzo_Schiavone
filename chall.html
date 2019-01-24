@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>placing items in html5 / css3 </title>
+		<link rel="stylesheet" type="text/css" href="chall.css">
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>This is our web-shop</h1>
+			</header>
+			<div class="outerWrapper">
+				<div class="part1">
+					<SCRIPT>
+						var carray = new Array(120);
+
+
+						for(i=0;i<121;i++){
+					document.write("<div class=\"c_art\"><img alt=\"art_"+i+"\"" + " id=\"art_"+i+"\" src=\"../img/iphone.png\" onclick=\"addOne("+i+")\"></div>");
+							carray[i]=0;
+
+
+						}
+						carray[3]="4";
+						carray[3]="7";
+						carray[3]="2";
+
+					</SCRIPT>
+				
+				</div>
+				<div class="part2">
+					<div>
+						<h1>Shopping-Cart</h1>
+					</div>
+					<div>
+						<SCRIPT>
+							for(i=0;i<carray.length;i++){
+								if(carray[i]!=0){
+									document.write("article-nr. " + i + " pcs: " + carray[i]+"<br>");
+								}
+							}
+						</SCRIPT>
+					</div>
+				</div>
+			</div>
+				
+		</main>
+
+
+
+
+
+		<SCRIPT>
+			function addOne(witchOne){
+				alert("Write the code to insert article " + witchOne + " into the cart.");	
+			}
+
+		</SCRIPT>
+	
+	</body>
+</html>
