@@ -1,0 +1,33 @@
+articles = [{
+	"unique_Id" : "0",
+	 "Name" : "Laptop",
+	 "company" : "Apple",
+	 "description": "Mac Book",
+	 "Salary" : "5000€"
+
+},
+{
+	"unique_Id" : "1",
+	 "Name" : "Handy",
+	 "company" : "Nokia",
+	 "description": "typ 45",
+	 "Salary" : "500€"
+
+},
+{
+	"unique_Id" : "2",
+	 "Name" : "Beamer",
+	 "company" : "HP",
+	 "description": "super beamer",
+	 "Salary" : "300€"
+
+},
+{
+	"unique_Id" : "3",
+	 "Name" : "Mouse",
+	 "company" : "Microsoft",
+	 "description": "wireless",
+	 "Salary" : "50€"
+
+},
+];

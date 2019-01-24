@@ -10,36 +10,14 @@
 				<h1>This is our web-shop</h1>
 			</header>
 			<div class="outerWrapper">
-				<div class="part1">
-					<SCRIPT>
-						var carray = new Array(120);
+				<div id="part1">
 
-
-						for(i=0;i<121;i++){
-					document.write("<div class=\"c_art\"><img alt=\"art_"+i+"\"" + " id=\"art_"+i+"\" src=\"../img/iphone.png\" onclick=\"addOne("+i+")\"></div>");
-							carray[i]=0;
-
-
-						}
-						carray[3]="4";
-						carray[3]="7";
-						carray[3]="2";
-
-					</SCRIPT>
-				
 				</div>
 				<div class="part2">
 					<div>
 						<h1>Shopping-Cart</h1>
 					</div>
-					<div>
-						<SCRIPT>
-							for(i=0;i<carray.length;i++){
-								if(carray[i]!=0){
-									document.write("article-nr. " + i + " pcs: " + carray[i]+"<br>");
-								}
-							}
-						</SCRIPT>
+					<div id="mycart">
 					</div>
 				</div>
 			</div>
@@ -48,14 +26,53 @@
 
 
 
+		<script type="text/javascript" src="chall.json"></script>
 
+	
 
 		<SCRIPT>
-			function addOne(witchOne){
-				alert("Write the code to insert article " + witchOne + " into the cart.");	
+
+			window.addEventListener("load", show_shop, false);
+			carticles = new Array;
+			for (i=0;i<articles.length;i++){
+				carticles[i] = 0;
 			}
 
+			function show_shop(){
+				for(i=0;i<articles.length;i++){
+					document.getElementById("part1").innerHTML += "<div class=\"c_art\"><img alt=\"art_"+i+"\"" + " id=\"art_"+i+"\" src=\"article.jpg\" width=\"100px\" onclick=\"addOne("+i+")\"></div>";
+				}
+
+
+			}
+
+			function show_cart(){
+				document.getElementById("mycart").innerHTML = "";
+				for(i=0;i<carticles.length;i++){
+
+					if(carticles[i]!=0){
+						var addstr = "<p onclick=\"remOne("+i+")\" id=\"ac"+ i + "\"> article-nr. " + String(i) + " pcs: " + String(carticles[i]) +"</p>";
+						document.getElementById("mycart").innerHTML += addstr;
+					}
+				}
+				
+			}
+
+			function addOne(wichOne){
+				carticles[wichOne] += 1;
+				show_cart();	
+			}
+
+			function remOne(wichOne){
+				carticles[wichOne] -= 1;
+				show_cart();	
+			}
+				
+
+
 		</SCRIPT>
-	
+				
+		
+
 	</body>
 </html>
