@@ -1,0 +1,83 @@
+employee = [{
+	"unique_Id" : "0",
+	 "First_name" : " Markus",
+	 "Last_name" : "Szokoll",
+	 "Email_adress" : "Markus.Szokoll@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},
+{
+	"unique_Id" : "1",
+	 "First_name" : " Markus",
+	 "Last_name" : "Szokoll",
+	 "Email_adress" : "Markus.Szokoll@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "2",
+	 "First_name" : " Vincenzo",
+	 "Last_name" : "Schiavone",
+	 "Email_adress" : "Markus.Szokoll@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "3",
+	 "First_name" : " John",
+	 "Last_name" : "Rambo",
+	 "Email_adress" : "John.Rambo@gmx.at",
+	 "Job_title": "Full Stack destroyer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "4",
+	 "First_name" : " Miss",
+	 "Last_name" : "Marple",
+	 "Email_adress" : "Oldschool.Crime@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "5",
+	 "First_name" : " Ding",
+	 "Last_name" : "Dong",
+	 "Email_adress" : "Who.is.there@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "6",
+	 "First_name" : "Bang",
+	 "Last_name" : "Bang",
+	 "Email_adress" : "Bang.Bang@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "7",
+	 "First_name" : " Markus",
+	 "Last_name" : "Szokoll",
+	 "Email_adress" : "Markus.Szokoll@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "8",
+	 "First_name" : " Markus",
+	 "Last_name" : "Szokoll",
+	 "Email_adress" : "Markus.Szokoll@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+},{
+	"unique_Id" : "9",
+	 "First_name" : " Markus",
+	 "Last_name" : "Szokoll",
+	 "Email_adress" : "Markus.Szokoll@gmx.at",
+	 "Job_title": "Full Stack developer",
+	 "Salary" : "5000€"
+
+}
+];
