@@ -30,4 +30,52 @@ articles = [{
 	 "Salary" : "50€"
 
 },
+{
+	"unique_Id" : "4",
+	 "Name" : "Mouse",
+	 "company" : "Microsoft",
+	 "description": "wireless",
+	 "Salary" : "50€"
+
+},
+{
+	"unique_Id" : "5",
+	 "Name" : "Mouse",
+	 "company" : "Microsoft",
+	 "description": "wireless",
+	 "Salary" : "50€"
+
+},
+{
+	"unique_Id" : "6",
+	 "Name" : "Mouse",
+	 "company" : "Microsoft",
+	 "description": "wireless",
+	 "Salary" : "50€"
+
+},
+{
+	"unique_Id" : "7",
+	 "Name" : "Mouse",
+	 "company" : "Microsoft",
+	 "description": "wireless",
+	 "Salary" : "50€"
+
+},
+{
+	"unique_Id" : "8",
+	 "Name" : "Mouse",
+	 "company" : "Microsoft",
+	 "description": "wireless",
+	 "Salary" : "50€"
+
+},
+{
+	"unique_Id" : "9",
+	 "Name" : "Mouse",
+	 "company" : "Microsoft",
+	 "description": "wireless",
+	 "Salary" : "50€"
+
+},
 ];

@@ -51,7 +51,7 @@
 				for(i=0;i<carticles.length;i++){
 
 					if(carticles[i]!=0){
-						var addstr = "<p onclick=\"remOne("+i+")\" id=\"ac"+ i + "\"> article-nr. " + String(i) + " pcs: " + String(carticles[i]) +"</p>";
+						var addstr = "<p display='inline' onclick=\"remOne("+i+")\" id=\"ac"+ i + "\"> article-nr. " + String(i) + " pcs: " + String(carticles[i]) +"</p>";
 						document.getElementById("mycart").innerHTML += addstr;
 					}
 				}
