@@ -42,28 +42,42 @@
 				for(i=0;i<articles.length;i++){
 					document.getElementById("part1").innerHTML += "<div class=\"c_art\"><img alt=\"art_"+i+"\"" + " id=\"art_"+i+"\" src=\"article.jpg\" width=\"100px\" onclick=\"addOne("+i+")\"></div>";
 				}
+				show_cart();
 
 
 			}
 
 			function show_cart(){
 				document.getElementById("mycart").innerHTML = "";
-				for(i=0;i<carticles.length;i++){
+				addstr="";
+				
+				
+					for(i=0;i<carticles.length;i++){
 
-					if(carticles[i]!=0){
-						var addstr = "<p display='inline' id=\"ac"+ i + "\"><button display='inline' onclick=\"remAll("+i+")\">DEL</button> <button display='inline' onclick=\"addOne("+i+")\">+1</button> <button display='inline' onclick=\"remOne("+i+")\">-1</button> <a target=\"_new\"href=\"article.html\">article-nr. " + String(i) + " pcs: " + String(carticles[i]) +"</a></p>";
-						document.getElementById("mycart").innerHTML += addstr;
+						if(carticles[i]!=0){
+							addstr = "<p display='inline' id=\"ac"+ i + "\"><h3><button display='inline' onclick=\"remAll("+i+")\"><h3>DEL</h3></button> <button display='inline' onclick=\"addOne("+i+")\"><h3>+1</h3></button> <button display='inline' onclick=\"remOne("+i+")\"><h3>-1</h3></button> <a target=\"_new\"href=\"article.html\">article-nr. " + String(i) + " pcs: " + String(carticles[i]) +"</a></h3></p>";
+
+							document.getElementById("mycart").innerHTML += addstr;
+							
+						}
 					}
-				}
+
+					if(document.getElementById("mycart").innerHTML == "") {
+						document.getElementById("mycart").innerHTML = "Your cart is empty!";
+					}
+				
+				
 				
 			}
 
 			function addOne(wichOne){
+				addstr="";
 				carticles[wichOne] += 1;
 				show_cart();	
 			}
 
 			function remOne(wichOne){
+				addstr="";
 				if(carticles[wichOne] > 0){
 					carticles[wichOne] -= 1;
 					show_cart();	
@@ -71,6 +85,7 @@
 			}
 				
 			function remAll(wichOne){
+				addstr="";
 				carticles[wichOne] = 0;
 				show_cart();	
 			}
